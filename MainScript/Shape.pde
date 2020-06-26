@@ -28,7 +28,6 @@ class Shape{
       strokeWeight(this.weight);
       rotateY(this.angle);
       if(this.type == 0){
-        // Blue circle
         stroke(127, 255, 255, this.alpha);
         translate(0, 0, 100);
         ellipse(0, 0, size, size);
@@ -38,7 +37,6 @@ class Shape{
         ellipse(0, 0, size, size);
         translate(0, 0, 100);
       } else if(this.type == 1){
-        // Red square
         stroke(0, 255, 255, this.alpha);
         translate(0, 0, 100);
         rect(0, 0, size, size);
@@ -48,7 +46,6 @@ class Shape{
         rect(0, 0, size, size);
         translate(0, 0, 100);
       } else {
-        // Green triangle
         stroke(63, 255, 255, this.alpha);
         translate(0, 0, 100);
         triangle(-size/2, -size/2, size/2, -size/2, 0, size/2);
